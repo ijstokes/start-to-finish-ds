@@ -1,0 +1,16 @@
+name: mpg_prediction
+description: Predict MPG using a linear regression model
+
+commands:
+  default:
+    bokeh_app: .
+
+packages:
+  - bokeh=0.12.5=py36_1
+  - pandas=0.20.1=np112py36_0
+  - scikit-learn=0.18.1=np112py36_1
+
+env_specs:
+  default:
+    channels: []
+    packages: []
